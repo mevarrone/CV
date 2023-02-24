@@ -1,104 +1,254 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum Vitae</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <title>Document</title>
 </head>
-
-<body class="bg-ligth">
-    
-  <div class="container p-5">
-
+<body>
     <div class="row">
-
-      <div id="menuizquierdo" class="col-lg-3 py-4">
-               
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card">
-              <div class="card-body fluid">
-                <img class="rounded-circle img-fluid" src="images/matias.jpg" alt="">
-                <h5 class="card-title">Varrone Matías Exequiel</h5>
-                <p class="card-text"> DESARROLLADOR </p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a id="inicio" class="navbar-brand" href="#">Secciones</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#acercademi">Acerca de mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto"> Información de contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info_academica">  Información académica</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info_laboral">  Experiencia laboral</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aptitudes">   Aptitudes</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos" > Proyectos</a>
+                  </li>
+                </ul>
+                
               </div>
             </div>
-          </div>
-        
-          <div class="col-lg-12">
-            <container>
-              <p><strong>Acarca de mí</strong></p>
-              <p>texto describiendo a yo</p>
-
-            </container>
-          </div>
-
-          <div class="col-lg-12">
-            <container>otro texto</container>
-          </div>
-            
-        </div>  
-
-      </div>
-    
-
-      <div id="contenido" class="col-lg-9 text-center">
-        <div class="row">  
-          <div class="col-lg-12">
-            <div class="card2">
-              <i class="fa-solid fa-user"></i><strong>  Acerca de mí</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas auctor leo quis accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tincidunt nulla in laoreet auctor. Proin sodales, lacus eget blandit convallis, tellus lacus pulvinar massa, ut luctus magna diam lacinia leo. Pellentesque vestibulum quam mauris, sed laoreet arcu sollicitudin sit amet. Quisque nibh enim, congue id tincidunt at, ullamcorper vel nunc. Vivamus ac nibh quis ex consequat posuere. Praesent tortor augue, viverra ac cursus quis, consectetur non risus. Pellentesque lacinia odio nibh, a blandit neque egestas et.</p>
-            </div>
-          </div>
-        
-          <div class="col-lg-12">
-            <div class="card2">
-              <div class="card-body">
-                <h5><i class="fa-solid fa-address-book"></i>  Información de contacto</h5>
-                <p class="content-card-text"><i class="fas fa-mobile"></i>  3434386403</p>
-                <p class="content-card-text"><i class="fas fa-envelope"></i>  matias.exe.varrone@gmail.com</p>
-                <p class="content-card-text"><i class="fa-solid fa-location-dot"></i>  Av. Pedro Zanni 3100, Paraná, Entre Ríos. Barrio Concreto, Lote 21, Casa 1</p>
-              </div>
-            </div>
-          </div>
-        
-          <div class="col-lg-12">
-            <div class="card2">
-              <h5><i class="fa-solid fa-graduation-cap"></i>  Información académica</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas auctor leo quis accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tincidunt nulla in laoreet auctor. Proin sodales, lacus eget blandit convallis, tellus lacus pulvinar massa, ut luctus magna diam lacinia leo. Pellentesque vestibulum quam mauris, sed laoreet arcu sollicitudin sit amet. Quisque nibh enim, congue id tincidunt at, ullamcorper vel nunc. Vivamus ac nibh quis ex consequat posuere. Praesent tortor augue, viverra ac cursus quis, consectetur non risus. Pellentesque lacinia odio nibh, a blandit neque egestas et.</p>
-            </div>
-          </div>
-        
-          <div class="col-lg-12">
-            <div class="card2">
-              <i class="fa-solid fa-briefcase"></i><strong>  Experiencia laboral</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas auctor leo quis accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tincidunt nulla in laoreet auctor. Proin sodales, lacus eget blandit convallis, tellus lacus pulvinar massa, ut luctus magna diam lacinia leo. Pellentesque vestibulum quam mauris, sed laoreet arcu sollicitudin sit amet. Quisque nibh enim, congue id tincidunt at, ullamcorper vel nunc. Vivamus ac nibh quis ex consequat posuere. Praesent tortor augue, viverra ac cursus quis, consectetur non risus. Pellentesque lacinia odio nibh, a blandit neque egestas et.</p>
-            </div>
-          </div>
+          </nav>
+    </div>
+    <div class="row">
+        <div id="left" class="col-md-12 col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                  
+                    <div class="card-body fluid">
+                      <img class="rounded-circle img-fluid" src="images/matias.jpg" alt="Imágen no encontrada">
+                      <h5 class="card-title">Varrone Matías Exequiel</h5>
+                      <p class="card-text"> DESARROLLADOR </p>
+                    </div>
+                  
+                </div>
+              
+                <div class="col-lg-12">
+                  <div class="card py-5">
+                    <h5><i class="fa-solid fa-address-book"></i>  Información de contacto</h5>
+                    <p class="content-card-text"><i class="fas fa-mobile"></i>  3434386403</p>
+                    <p class="content-card-text"><i class="fas fa-envelope"></i>  matias.exe.varrone@gmail.com</p>
+                    <p class="content-card-text"><i class="fa-solid fa-location-dot"></i>  Av. Pedro Zanni 3100, Paraná, Entre Ríos. Barrio Concreto, Lote 21, Casa 1</p>
+                  </div>
+                </div>
+                
+                <div class="container p-5" >
+                    <a href="mailto:matias.exe.varrone@gmail.com" target="_blank" class="btn btn-ligth"><i class="fas fa-envelope"></i>  Contáctame</a>
+                </div>
+                  
+              </div>  
         </div>
 
-        
-      </div>
+        <div id="center" class="col-md-12 col-lg-9 ">
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card2" id="acercademi">
+                      <h5><i class="fa-solid fa-user"></i>  Acerca de mí</h5>
+                      <p>Pertenecer a un equipo de trabajo donde pueda aplicar los conocimientos
+                        adquiridos, lograr una superación personal y profesional día a día y contribuir a
+                        la compañía con mi experiencia, actitud, valores y ética.</p>
+                      
+                    </div>
+                </div>
+            
 
+                <div class="col-lg-12">
+                    <div class="card2" id="contacto">
+                        <div class="card-body">
+                            <h5><i class="fa-solid fa-address-book"></i>  Información de contacto</h5>
+                            <p class="content-card-text"><i class="fas fa-mobile"></i>  3434386403</p>
+                            <p class="content-card-text"><i class="fas fa-envelope"></i>  matias.exe.varrone@gmail.com</p>
+                            <p class="content-card-text"><i class="fa-solid fa-location-dot"></i>  Av. Pedro Zanni 3100, Paraná, Entre Ríos. Barrio Concreto, Lote 21, Casa 1</p>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#inicio" > <span class="badge bg-secondary">Inicio</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="card2" id="info_academica">
+                        <h5><i class="fa-solid fa-graduation-cap"></i>  Información académica</h5>
+                        <ol class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Instituto Dr. Enrique Carbó (Obra de Don Bosco)</div>
+                                Bachiller Mercantil - 1996
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Finalizado</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Universidad Tecnológica Nacional Regional Santa Fe</div>
+                                Ingeniería en Sistemas de Información
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Sin finalizar</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Universidad Popular de Paraná</div>
+                                Reparador de PC - 2008
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Finalizado</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Universidad Tecnológica Nacional Regional Paraná</div>
+                                Técnico Superior en Programación - 2013
+                            </div>
+                            <span class="badge bg-primary rounded-pill">Finalizado</span>
+                            </li>
+                        </ol>
+                        <div>
+                            <a class="nav-link" href="#inicio" > <span class="badge bg-secondary">Inicio</span></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="card2" id="info_laboral">
+                        <h5><i class="fa-solid fa-briefcase"></i>  Experiencia laboral</h5>
+                        <ol class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Ministerio de Salud de Entre Ríos</div>
+                                <p>Programador - Administrativo</p>
+                                Tecnologías: 
+                                <ul>
+                                    <li>Django</li>
+                                    <li>Python</li>
+                                    <li>Firebird</li>
+                                    <li>Postgresql</li>
+                                    <li>GIT</li>
+                                    <li>Soporte a usuarios</li>
+                                </ul>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">01/10/2017 - Actualidad</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">ChangoMás - Paraná</div>
+                                <p>Cajero - Atención al Cliente</p>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">31/05/2010 a 24/01/2020</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Digital Microfilm (Tecnodoc)</div>
+                                <p>Programador - Microfilmación - Digitalización - Data Entry</p>
+                                Tecnologías
+                                <ul>
+                                    <li>Delphi</li>
+                                    <li>Lazarus</li>
+                                    <li>C++</li>
+                                    <li>Flash</li>
+                                    <li>Python</li>
+                                    <li>Gestión de Bases de Datos</li>
+                                    <li>Microfilmación de archivos</li>
+                                    <li>Digitalización de archivos</li>
+                                </ul>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">01/05/2005 - 30/04/2009</span>
+                            </li>
+                        </ol> 
+                        <div>
+                            <a class="nav-link" href="#inicio" > <span class="badge bg-secondary">Inicio</span></a>
+                        </div>           
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="card2" id="aptitudes">
+                        <h5><i class="fa-solid fa-thumbs-up"></i>  Aptitudes</h5>
+                        <div class="content-card-text"> 
+                        <p><i class="fas fa-check"></i> Buenas relaciones interpersonales dentro y fuera del ambiente laboral</p>
+                        <p><i class="fas fa-check"></i> Trabajo en equipo</p>
+                        <p ><i class="fas fa-check"></i> Disposición a aprender</p>
+                        <p ><i class="fas fa-check"></i> Me gusta capacitarme día a día</p>
+                        <p ><i class="fas fa-check"></i> Ética</p>
+                        <p ><i class="fas fa-check"></i> Respeto por el prójimo</p>
+                        <p ><i class="fas fa-check"></i> Responsabilidad</p>
+                        <p ><i class="fas fa-check"></i> Honestidad</p>
+                        <p ><i class="fas fa-check"></i> Orden</p>
+                        <p ><i class="fas fa-check"></i> Puntualidad</p>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#inicio" > <span class="badge bg-secondary">Inicio</span></a>
+                        </div>  
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="card2" id="proyectos">
+                        <h5><i class="fa-solid fa-thumbs-up"></i>  Proyectos</h5>
+        
+                        <div class="row" text-align="text-center">
+                            <div class="col-md-12 col-lg-6 py-4">
+                                <h5>Hemeroteca digital de Santa Fe</h5>
+                                <a href="http://www.santafe.gov.ar/hemerotecadigital/formbuscar.php" target="_blank">
+                                    <img class="img-fluid" src="images/hemeroteca.png" alt="Imágen no encontrada">
+                                </a>
+                            </div> 
+                            <div class="col-md-12 col-lg-6 py-4">
+                                <h5>Decretos del Poder Ejecutivo de Santa Fe.</h5>
+                                <a href="https://gobierno.santafe.gov.ar/archivo_general/decretos_1955_1995/formbuscar.php" target="_blank">
+                                    <img class="img-fluid" src="images/decretos.png" alt="Imágen no encontrada">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-lg-6 py-4"> 
+                                <h5>Hemeroteca digital de Santa Fe</h5>
+                                <a href="https://www.santafe.gov.ar/censo1887/" target="_blank">
+                                    <img class="img-fluid" src="images/censo.png" alt="Imágen no encontrada">
+                                </a>
+                            </div> 
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#inicio" > <span class="badge bg-secondary">Inicio</span></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
     
-    
-
-  </div>
-
-  <div class="container p-5" >
-    
-    <a href="mailto:matias.exe.varrone@gmail.com" target="_blank" class="btn btn-primary"><i class="fas fa-envelope"></i>  Contáctame</a>
-    
-  </div>
-
-  
-
-  
 </body>
 </html>
