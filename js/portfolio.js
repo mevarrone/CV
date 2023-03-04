@@ -6,6 +6,7 @@ $(document).ready(function(){
 		}, 100);
 	});
 
+    
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
 			$('.ir-arriba').slideDown(100);
